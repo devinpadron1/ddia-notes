@@ -57,14 +57,23 @@ What does a compute-intensive application look like? What does a data-intensive 
 - For something data-intensive I think of a social media application. Something that handles a lot of state and a lot of data handling. Not a lot of computation is ocurring in the sense of CPU usage(?). If we had the perfect DB, then apps would load and update state instantly(?).
 
 ## Chapter 2: Data Models and Query Languages
-Relational, non-relational, graphs
+Fundamentally, software leads to applications. Applications need to store and retrieve data. Data = information about the world.
+
+**Data models** provide a way to represent data and how its interconnected. 
+
+**Query languages** are tools to interact with these models.
+
+The 3 most common data models are:
+1. Relational
+2. Non-relational (document)
+3. Graphs
 
 ### Relational (SQL)
 - good for many to many relationships 
 
 ### Non-relational (NoSQL)
 - good for one to many relationships (tree structure)
-- are generally closest to the data structure they're trying to represent
+- are generally closest to the data structure they're trying to represent in an application
 - read in one go, not ideal for small reads since you can't partially read a table
 
 ### Declarative vs Imperative
