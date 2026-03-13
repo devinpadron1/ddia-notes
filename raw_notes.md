@@ -67,13 +67,13 @@ Software leads to applications and applications need to store and retrieve data.
 
 The 3 most common data models are:
 1. Relational
-2. Non-relational (document)
+2. Document
 3. Graphs
 
 ### Relational (SQL)
 - good for many to many relationships 
 
-### Non-relational (NoSQL)
+### Document (NoSQL)
 - good for one to many relationships (tree structure)
 - are generally closest to the data structure they're trying to represent in an application
 - read in one go, not ideal for small reads since you can't partially read a table
