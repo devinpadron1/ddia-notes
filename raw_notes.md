@@ -1,9 +1,5 @@
 ## Chapter 1: Terminology
-data-intensive vs compute-intensive
-
-The chapter revolves around defining 3 key terms: reliability, scalability and maintainability.
-
-database vs message queue
+The chapter revolves around defining 3 key terms: **reliability**, **scalability** and **maintainability**.
 
 ### Reliability
 - Is the application behaving as intended?
@@ -44,11 +40,14 @@ Types of faults:
 - A measure of how quickly an engineer can get up-to-speed and contribute to the codebase.
 - How quickly can one diagnose / patch issues 
 
+### Things to expand upon
+data-intensive vs compute-intensive
+database vs message queue
 
 ### Summary in my own words
 This chapter discussed 3 core concepts: reliablility, scaleability and maintainability.
 A system is reliable when it functions as intended. A system is robust when if can handle local faults while still functioning.
-- Example: Artifactory goes down but BlueGPT is still able to function
+- Example: An artifact service goes down but BGPT is still able to function
 A system is scaleable when it is able to handle increased load.
 A system is maintainable when it is easy to operate, contribute, diagnose.
 
