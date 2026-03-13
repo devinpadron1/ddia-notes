@@ -82,7 +82,7 @@ Relational, non-relational, graphs
 - best used when traversal depth for a query is variable 
 
 ### Summary / thoughts
-- Why did BlueGPT go with SQL? What would happen if we migrated to a NoSQL db.
+- Why did BGPT go with SQL? What would happen if we migrated to a NoSQL db.
   - many to many relationships. sessions have messages, messages have models. agents have mcps, mcps have tools
 - How do I demonstrate the benefits / downsides of both approaches at the extremes?
 
