@@ -1,4 +1,11 @@
-## Chapter 1: Terminology
+## Vocabulary
+**Application** = runnable software that performs a function
+**System** = a group of components (apps, dbs, libraries, etc.) that interact to perform a function
+**Data** = recorded information
+**Data model** = defines how data is structured, related, and manipulated within a system
+**Query language** = language to interact with data through models
+
+## Chapter 1: Reliable Scalable and Maintainable Applications 
 The chapter revolves around defining 3 key terms: **reliability**, **scalability** and **maintainability**.
 
 ### Reliability
@@ -56,11 +63,7 @@ What does a compute-intensive application look like? What does a data-intensive 
 - For something data-intensive I think of a social media application. Something that handles a lot of state and a lot of data handling. Not a lot of computation is ocurring in the sense of CPU usage(?). If we had the perfect DB, then apps would load and update state instantly(?).
 
 ## Chapter 2: Data Models and Query Languages
-Fundamentally, software leads to applications. Applications need to store and retrieve data. Data = information about the world.
-
-**Data models** provide a way to represent data and how its interconnected. 
-
-**Query languages** are tools to interact with these models.
+Software leads to applications and applications need to store and retrieve data.
 
 The 3 most common data models are:
 1. Relational
